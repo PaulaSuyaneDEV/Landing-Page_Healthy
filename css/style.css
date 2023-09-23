@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #4b1d3f;
+
+
+}
+.container {
+    display: flex;
+    background-color: #e7ecef;
+
+}
+
+/* navbar */
+header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #4b1d3f;
+    color: white;
+}
+header h1 {
+    font-size: 40px;
+}
+ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+  li a {
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #4b1d3f;
+    background-color: white;
+    cursor: pointer;
+
+ }
+ li a:hover{
+    background-color: #4b1d3f;
+    color: white;
+ }
+ .menuMobile {
+    display: none;
+ }
+/*  box-home */
+
+.box-home {
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    color: #272932;
+
+}
+.box-home1 {
+    width: 50%;
+}
+.box-home1 img {
+    padding: 30px;
+    height: 400px;
+    background-color: #4b1d3f;
+    border-radius: 50%;
+}
+.box-home2 {
+    width: 50%;
+}
+.box-home2 h2 {
+    background-color: #4b1d3f;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: white;
+}
+.box-home2 h3 {
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.box-home2 p {
+    font-size: 20px;
+    padding: 5px 20px;
+    font-weight: bolder;
+
+
+}
+.box-home2 ol {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px 20px;
+    text-decoration: underline;
+    font-weight: bolder;
+    
+}
+ol li {
+    list-style: none;
+    padding-top: 3px;
+}
+.buttons {
+    display: flex;
+    gap: 70px;
+    padding: 10px  20px;
+    right: 50%;
+}
+.buttons button {
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #4b1d3f;
+    color: white;
+}
+
+/* Footer */
+footer {
+    margin-top: 10px;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.5em;
+    background-color: #4b1d3f;
+    width: 100%;
+    color: white;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}

@@ -1,12 +1,9 @@
-const menuNav = document.getElementById('menu-main');
+const menuNav = document.getElementById('menu-nav');
 
-const btn = document.querySelector('.menuMobile');
+const btn = document.querySelector('.menu-mobile');
 
-//adicionar a funcao de clique no botao
-
-
-function abrirMenu() {
-    menuNav.classList.toggle('menu-mobile');
+function abreMenu() {
+    menuNav.classList.toggle('MenuMobile');
 }
 
-btn.addEventListener('click', abrirMenu);
+btn.addEventListener('click', abreMenu);

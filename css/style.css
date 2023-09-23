@@ -52,7 +52,7 @@ ul {
     background-color: #4b1d3f;
     color: white;
  }
- .menuMobile {
+ .menu-mobile {
     display: none;
  }
 /*  box-home */
@@ -130,13 +130,15 @@ ol li {
 /* Footer */
 footer {
     margin-top: 10px;
-    color: black;
     font-weight: 600;
     text-align: center;
-    line-height: 1.5em;
+    line-height: 1.2em;
     background-color: #4b1d3f;
     width: 100%;
     color: white;
+}
+footer p {
+    padding-top: 10px;
 }
 footer a {
     text-decoration: none;
